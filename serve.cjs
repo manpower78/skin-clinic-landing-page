@@ -39,5 +39,5 @@ http.createServer((request, response) => {
     response.end(contents);
   });
 }).listen(port, '127.0.0.1', () => {
-  console.log(`온결 피부과 랜딩페이지: http://127.0.0.1:${port}`);
+  console.log(`바이브피부과 랜딩페이지: http://127.0.0.1:${port}`);
 });
