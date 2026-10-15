@@ -33,7 +33,7 @@ button, input, select { font: inherit; }
 .menu-toggle span { display: block; width: 23px; height: 1px; background: var(--green); }
 
 .hero { min-height: min(610px, calc(100svh - 78px)); position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: center; padding: 0 var(--page-gutter); }
-.hero__photo { position: absolute; z-index: -1; inset: 0 0 0 29%; background-image: linear-gradient(90deg, #fff 0%, rgba(255,255,255,.8) 8%, rgba(255,255,255,0) 38%), url('/assets/hero-portrait.png'); background-size: cover; background-position: center 44%; }
+.hero__photo { position: absolute; z-index: -1; inset: 0 0 0 29%; background-image: linear-gradient(90deg, #fff 0%, rgba(255,255,255,.8) 8%, rgba(255,255,255,0) 38%), url('./assets/hero-portrait.png'); background-size: cover; background-position: center 44%; }
 .hero__copy { position: relative; z-index: 1; padding: 30px 0 38px; max-width: 610px; }
 .hero__eyebrow { margin: 0 0 17px; font: 300 14px/1.5 var(--serif); letter-spacing: -.035em; color: #3e4d43; }
 .hero h1 { font: 500 clamp(52px, 6.8vw, 88px)/1.2 var(--serif); letter-spacing: -.075em; margin: 0 0 20px; white-space: nowrap; }
@@ -60,7 +60,7 @@ button, input, select { font: inherit; }
 .treatment a { margin-top: auto; display: inline-flex; gap: 12px; align-items: center; border-bottom: 1px solid #aab5ad; padding-bottom: 2px; font: 400 12px var(--serif); color: #36483e; }
 
 .clinic { min-height: 405px; display: grid; grid-template-columns: 1fr 1fr; background: #f6f6f4; }
-.clinic__image { min-height: 405px; background: url('/assets/doctor-portrait.png') center 42% / cover no-repeat; }
+.clinic__image { min-height: 405px; background: url('./assets/doctor-portrait.png') center 42% / cover no-repeat; }
 .clinic__copy { padding: 48px clamp(40px, 7.2vw, 108px); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
 .clinic .section-eyebrow { margin-bottom: 20px; }
 .clinic h2 { font-size: clamp(32px, 3vw, 39px); }
@@ -123,7 +123,7 @@ button, input, select { font: inherit; }
   .brand__name { font-size: 20px; }
   .main-nav { top: 68px; }
   .hero { min-height: 660px; align-items: flex-start; padding-top: 64px; }
-  .hero__photo { inset: 195px -24% 0 3%; opacity: 1; background-image: linear-gradient(180deg, #fff 0%, rgba(255,255,255,.72) 5%, rgba(255,255,255,0) 25%), url('/assets/hero-portrait.png'); background-position: right center; }
+  .hero__photo { inset: 195px -24% 0 3%; opacity: 1; background-image: linear-gradient(180deg, #fff 0%, rgba(255,255,255,.72) 5%, rgba(255,255,255,0) 25%), url('./assets/hero-portrait.png'); background-position: right center; }
   .hero__copy { padding: 0; }
   .hero__eyebrow { font-size: 12px; margin-bottom: 10px; }
   .hero h1 { font-size: 56px; margin-bottom: 10px; }
